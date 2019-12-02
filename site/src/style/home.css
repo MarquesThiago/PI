@@ -1,0 +1,62 @@
+.content-main {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding: 15px;
+  border-radius: 15px;
+  min-height: 200px;
+  color: white;
+  background: #070707;
+}
+
+.link {
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  font-size: 20px bold;
+  color: white;
+  border-radius: 10px;
+  border-top: none !important;
+  border-bottom: 5px solid;
+  -o-border-image: linear-gradient(to right, #a200e0, #714cfe, #d602ee);
+     border-image: -webkit-gradient(linear, left top, right top, from(#a200e0), color-stop(#714cfe), to(#d602ee));
+     border-image: linear-gradient(to right, #a200e0, #714cfe, #d602ee);
+  border-image-slice: 100;
+  border-image-width: 3px, 0px;
+  background: #1a1919;
+}
+
+.link:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#09af00), to(#90ee02));
+  background-image: linear-gradient(to top, #09af00, #90ee02);
+  color: black;
+}
+
+.link-content {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: none;
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  min-height: 300px;
+  padding: 50px;
+}
+
+.views {
+  display: block;
+}
+/*# sourceMappingURL=home.css.map */

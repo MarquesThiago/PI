@@ -1,0 +1,135 @@
+.footer-block{
+    display:flex;
+    align-self: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    margin-top:50px;
+    padding-top:30px;
+    background-image: linear-gradient(to  bottom, #000000, 70%, #0f0235);
+    // box-sizing: border-box;
+    
+
+
+    div{
+        // background-color: rgb(103, 105, 145);
+        text-decoration: none;
+        padding-top: 20px;
+        width: 25%;
+        height: 60px;
+        color:white;
+        
+        a{
+            color: #0b87ec;
+        }
+
+      
+
+       
+    }
+     .description{
+         display: flex;
+         flex-direction: column;
+         width: 50%;
+         height: 100%;
+         align-items: center;
+         
+         div{
+            display:flex;
+            flex-direction: row;
+            width: 50%;
+        
+         p{
+             font-size: 30px;
+             margin-top: 30px;
+            }
+         
+          }
+         
+
+
+        }
+}
+
+// @media (max-width: 520px){
+
+// .description{
+//     display: row;
+//     flex-direction: row;
+//     width:100% ;
+// }
+
+// //     .footer-block{
+// //         height: 270px;
+// //         flex-direction: row;
+// //         padding-bottom: 50px;
+        
+// //         div{
+// //             padding-top: 0px;
+// //             margin-left: 30px;
+// //             width: 40%;
+// //             height: 40px;
+
+
+// //         }
+
+        
+// //         }
+
+// //     .description{
+        
+// //             font-size: 300px;
+// //             display: flex;
+// //             flex-direction: row;
+
+           
+
+// //         
+    
+// //     }
+
+// //   .footertitle{
+// //                 font=size: 30px;
+// //                 width: 150px;
+// //             }
+    
+// }
+
+@media screen and (max-width: 520px){
+    .footer-block{
+        flex-wrap: wrap;
+        margin-top:20px;
+        padding-top:10px;
+        
+    }
+
+    .description{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+
+    }
+    .footertitle{
+        display:flex;
+        flex-wrap: nowrap;;
+        width: 300px;
+        background: #0b87ec;
+    }
+    .footerlogo{
+        width: 5px;
+        height: 5px;
+    }
+
+}
+
+
+    .footerlogo{
+        // position: relative;
+        // left: 30px;
+        // padding-left:5%;
+        margin-top: 20px;
+        width: 90px;
+        height: 90px;
+    }

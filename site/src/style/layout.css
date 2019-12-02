@@ -1,0 +1,31 @@
+.block-top {
+  width: 100%;
+  height: 170px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#035c0a), to(#27ce06));
+  background-image: linear-gradient(to top, #035c0a, #27ce06);
+}
+
+.block-top-second {
+  width: 100%;
+  height: 60px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#41f56e), to(#15ad61));
+  background-image: linear-gradient(to top, #41f56e, #15ad61);
+}
+
+.logo {
+  position: relative;
+  top: -90px;
+  margin-right: 10px;
+  float: right;
+  width: 15%;
+  height: 15%;
+}
+
+.titulo {
+  position: absolute;
+  color: #ccfced;
+  top: 10%;
+  left: 10%;
+  font-size: 70px;
+}
+/*# sourceMappingURL=layout.css.map */

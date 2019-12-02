@@ -1,0 +1,73 @@
+@import "./variaveis.scss";
+
+
+$green-site : #09af00;
+$green-site-O : #09af0067;
+$clean-green-site:#68da12;
+$light-green-site: #90ee02;
+
+$blue: #021aee;
+$light-blue: #ba00e5;
+$purple: #714cfe;
+
+$pink:#d602ee;
+$pink-light: #e98df5;
+$pink-site:#a200e0;
+
+$orange: #ee6002;
+$orange-light:#ff8d00;
+$orange-brigth: #ffaf49;
+
+.content-main{
+    box-sizing: border-box;
+    display:inline-flex;
+    flex-direction: column;;
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    min-height: 200px;
+    color: white;
+    background: rgb(7, 7, 7);
+}
+
+.link{
+    width: 100%;
+    height: 70px;
+    display:flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px bold;
+    color:white;
+    border-radius: 10px;
+    border-top: none !important;
+    border-bottom: 5px solid ;
+    border-image: linear-gradient(to right,$pink-site, $purple, $pink);
+    border-image-slice: 100;
+    border-image-width: 3px, 0px;
+    // box-shadow: 5px 1px 10px $purple;
+    background: #1a1919;
+    
+}
+
+.link:hover{
+    background-image: linear-gradient(to top, $green-site, $light-green-site );
+    color: black;
+
+}
+
+
+
+.link-content{
+    box-sizing: border-box;
+    display:none;
+    width:100%;
+    background: white;
+    border-radius: 10px;
+    min-height: 300px;
+    padding: 50px;
+    
+}
+
+.views{
+    display:block;
+}
