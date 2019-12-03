@@ -27,8 +27,11 @@ export default function Home(){
                 <h1> Bem-vindo ao Reciclar Cores </h1>
                 <h2> Agradeçemos sua presença</h2>
 
-                <p> A todos quero agradecer por terem estado presentes no meu aniversário, 
-                    mesmo àqueles que não puderam estar fisicamente.</p>
+                <p> A todos gostariamos de agradecer por estarem presentes aqui hoje e esperamos 
+                    poder passar algumas das expriencias que vivencimaos na realização do nosso 
+                    Projecto Integrador. Mas que isso queremos que poder agregar na vida de cada,  
+                    conhecimentos sobre esse tema tão importante que é a sustentabilidade. 
+                </p>
             </div>
             <button className="link firts-action"  onClick = { event => {rep('firts')}} >
                  <h2>Reciclagem Senac</h2>
@@ -58,8 +61,10 @@ export default function Home(){
 
             <div className="link-content" id= "third">
                 <h3>Apresentação das informações apresentadas por representante da empresa LOGA</h3>
-                <p> A LOGA e a empresa responsave pelo contato com </p>
+                <p> A LOGA e a empresa logistica uma das duas empresas responsaveis  pela coleta de lixo no Estado de São Paulo.</p>
             </div>
+            
         </>
     )
+
 }

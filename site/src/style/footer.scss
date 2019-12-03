@@ -8,128 +8,135 @@
     margin-top:50px;
     padding-top:30px;
     background-image: linear-gradient(to  bottom, #000000, 70%, #0f0235);
+    box-sizing: border-box;
     // box-sizing: border-box;
-    
-
-
-    div{
-        // background-color: rgb(103, 105, 145);
-        text-decoration: none;
-        padding-top: 20px;
-        width: 25%;
-        height: 60px;
-        color:white;
-        
-        a{
-            color: #0b87ec;
-        }
-
-      
-
        
     }
+
      .description{
          display: flex;
-         flex-direction: column;
-         width: 50%;
+         flex-direction: row;
+         width: 45%;
          height: 100%;
          align-items: center;
+         font-size: 30px;
+         box-sizing: border-box;
          
-         div{
-            display:flex;
-            flex-direction: row;
-            width: 50%;
+        //  div{
+        //     display:flex;
+        //     flex-direction: row;
+        //     width: 50%;
         
-         p{
-             font-size: 30px;
-             margin-top: 30px;
-            }
+        //  p{
+        //      font-size: 30px;
+        //      margin-top: 30px;
+        //     }
          
-          }
-         
+        //   }
 
-
-        }
 }
 
-// @media (max-width: 520px){
+.footerlogo{
 
-// .description{
-//     display: row;
-//     flex-direction: row;
-//     width:100% ;
-// }
+    margin-top: 20px;
+    margin-right: 10px;
+    width:  100px;
+    height: 100px;
 
-// //     .footer-block{
-// //         height: 270px;
-// //         flex-direction: row;
-// //         padding-bottom: 50px;
-        
-// //         div{
-// //             padding-top: 0px;
-// //             margin-left: 30px;
-// //             width: 40%;
-// //             height: 40px;
+}
 
+.footer-visualmark{
 
-// //         }
+    display: flex;
+    align-items: center;
 
-        
-// //         }
+}
 
-// //     .description{
-        
-// //             font-size: 300px;
-// //             display: flex;
-// //             flex-direction: row;
-
-           
-
-// //         
+.footer-menu-bt{
     
-// //     }
+    // background-color: rgb(103, 105, 145);
+    padding-top: 20px;
+    width: 50%;
+    height: 60px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+            
+    a{
+        color: #0b87ec;
+    }
+         
+}
 
-// //   .footertitle{
-// //                 font=size: 30px;
-// //                 width: 150px;
-// //             }
+.footer-item-menu{
+
+    width:20%;
+    height: 50%;
+}
+
+.footertitle{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: white;    
     
-// }
+}
+
 
 @media screen and (max-width: 520px){
+
     .footer-block{
+
         flex-wrap: wrap;
         margin-top:20px;
-        padding-top:10px;
+        padding-top:50px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        align-items: center;
+        text-align: center;   
+        height: 250px; 
+
+    .description{
+        
+        width: 80%;
+        height: 10px;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+
+
+    }
+
+    }
+  
+    .footerlogo{
+        width: 50px;
+        height: 50px;
+        margin-top: 0px;
+    }
+
+    .footertitle{
+        text-align: center;
+        display: inline;
+        margin: 10px;
         
     }
 
-    .description{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        width: 100%;
 
+    .footer-menu-bt{
+        width: 100%;
+        height: 50%;
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
     }
-    .footertitle{
-        display:flex;
-        flex-wrap: nowrap;;
-        width: 300px;
-        background: #0b87ec;
-    }
-    .footerlogo{
-        width: 5px;
-        height: 5px;
-    }
+
 
 }
 
-
-    .footerlogo{
-        // position: relative;
-        // left: 30px;
-        // padding-left:5%;
-        margin-top: 20px;
-        width: 90px;
-        height: 90px;
-    }

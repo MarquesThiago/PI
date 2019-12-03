@@ -8,6 +8,7 @@ export default function Router(){
         <BrowserRouter>
             <Switch>
                 <Route path="/" exact component={Home}/> 
+                
             </Switch>
         </BrowserRouter>
     )
