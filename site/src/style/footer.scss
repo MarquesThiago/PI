@@ -21,6 +21,7 @@
          align-items: center;
          font-size: 30px;
          box-sizing: border-box;
+         justify-content:center;
          
         //  div{
         //     display:flex;
@@ -85,6 +86,15 @@
     
 }
 
+@media screen and (max-width: 628px){
+    .description{
+        justify-content: flex-end;
+    }
+    .footertitle{
+        width:100px;
+    }
+}
+
 
 @media screen and (max-width: 520px){
 
@@ -108,6 +118,7 @@
         flex-direction: column;
         align-items: center;
         box-sizing: border-box;
+        
 
 
     }
@@ -121,6 +132,7 @@
     }
 
     .footertitle{
+        width: 200px;
         text-align: center;
         display: inline;
         margin: 10px;
@@ -131,7 +143,7 @@
     .footer-menu-bt{
         width: 100%;
         height: 50%;
-        margin-top: 50px;
+        margin-top: 20px;
         flex-direction: column;
         align-items: center;
         text-align: left;

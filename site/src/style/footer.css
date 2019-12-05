@@ -36,6 +36,9 @@
   font-size: 30px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footerlogo {
@@ -93,6 +96,17 @@
   color: white;
 }
 
+@media screen and (max-width: 628px) {
+  .description {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .footertitle {
+    width: 100px;
+  }
+}
+
 @media screen and (max-width: 520px) {
   .footer-block {
     -ms-flex-wrap: wrap;
@@ -132,6 +146,7 @@
     margin-top: 0px;
   }
   .footertitle {
+    width: 200px;
     text-align: center;
     display: inline;
     margin: 10px;
@@ -139,7 +154,7 @@
   .footer-menu-bt {
     width: 100%;
     height: 50%;
-    margin-top: 50px;
+    margin-top: 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
