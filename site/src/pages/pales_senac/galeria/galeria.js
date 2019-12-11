@@ -148,15 +148,9 @@ export default  function () {
                     <div className="buttom_red_screen" id="black_screen">
                         <div className="txt_screen_black">
                         <p className="ttl_black_screen">Conversa com a equipe de limpeza do SENAC</p>
-                            <p >Gostariamos de agradecer a equipe de limpeza do SENAC, por serem parte
-                                da primeira ação do nosso P.I. e a Experiência proporcionada.
+                            <p >Gostaríamos de agradecer a equipe de limpeza do SENAC, por terem participado primeira ação do nosso P.I. e a Experiência proporcionada.
                             </p>
-                            <p>Este dia foi definitivamente o ponto inicial do nosso P.I. o que começou
-                                no intuito de orientativo, se tornou um rica troca de informação, e apartir dali
-                                começamos a nos questionar o que pode ser reciclado, o que permite que esse material 
-                                seja reciclavel ou não (seu estado se esta sujo ou molhado entre outras coisas) e o 
-                                que mais poderiamos reutilizar.
-                            </p>
+                            <p>Este dia foi definitivamente o ponto inicial do nosso P.I. o que começou no intuito de orientativo, se tornou um rica troca de informação, e apartir dali começamos a nos questionar o que pode ser reciclado, o que permite que esse material seja reciclável ou não (seu estado se está sujo ou molhado entre outras coisas) e o que mais poderíamos reutilizar.</p>
                     
                         </div>
                         <button className="red_in_screen" id="btnRedScreen" onClick={event => { NewScreenRed('redScreen', "black_screen")}}>

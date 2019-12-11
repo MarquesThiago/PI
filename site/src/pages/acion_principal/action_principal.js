@@ -133,7 +133,7 @@ export default  function () {
 
                 <div className="gallery_popup galllery_popup_act" id="screen1">
                 <div className="txt_gallery">
-                <p  >clique no meio para visulalizar as imagens e nas laterais para passar de imagem</p>
+                <p  >clique no meio para visulalizar as imagens e nas laterais para passar de imagem e no circulo para visualizar a descrição</p>
                 </div>
                     {/* screen content one */}
                     <div className= "screen">
@@ -150,9 +150,7 @@ export default  function () {
                         <div className="txt_screen_black">
                             {/* <div className = "txt_on_screen" > */}
                             <p className="ttl_black_screen">Teatro de Fantoches - Abertura</p>
-                            <p >Teve a função de criar aproximação com as crianças, 
-                                desenvolvida pensando em uma abordagem divertida, interativa 
-                                e com elementos imaginarios  onde aconteceu uma introdução ao tema.</p>
+                            <p >Teve a função de criar aproximação com as crianças, desenvolvida pensando em uma abordagem divertida, interativa e com elementos imaginários  onde aconteceu uma introdução ao tema.</p>
                             <p >A historia fala sobre super-horois da reciclagem, e mostra o 
                                 quão divertido pode ser a reciclagem.</p>
                             {/* </div> */}
@@ -182,11 +180,7 @@ export default  function () {
                     <div className="buttom_red_screen" id="black_screen2">
                         <div className="txt_screen_black">
                         <p className="ttl_black_screen">Caminho da Reciclagem</p>
-                            <p>Semelhante a um jogo de tabuleiro as crianças tinham um caminho a seguir, 
-                                possuiam dados a qual podiam jogar e avançar casas. Cada casa tinha uma especificação a 
-                                se resolver, em maioria eram perguntas sobre reciclagem. Claro que as crianças
-                                 poderiam contar com o auxilio dos instrutores para ajudar passar pelo percurso, até porque 
-                                 jogo tinha unicamente como carater orientar sobre a reciclagem.</p>
+                            <p>Semelhante a um jogo de tabuleiro as crianças tinham um caminho a seguir, possuíam dados a qual podiam jogar e avançar casas. Cada casa tinha uma especificação a se resolver, em maioria eram perguntas sobre reciclagem. Claro que as crianças poderiam contar com o auxílio dos instrutores para ajudar passar pelo percurso, até porque jogo tinha unicamente como caráter orientar sobre a reciclagem.</p>
                             
                          </div>
                         <button className="red_in_screen" id="btnRedScreen" onClick={event => { NewScreenRed('redScreen2', "black_screen2")}}>
@@ -214,13 +208,9 @@ export default  function () {
                     </div>
                     <div className="buttom_red_screen" id="black_screen3">
                         <div className="txt_screen_black">
-                        <p className="ttl_black_screen">Dinamica do Lixo</p>
-                            <p >Foi um momento onde as crianças dizeram a oportunidade 
-                                de conhecer um pouco mais sobre separação de lixo e o esquema
-                                 de cores. Criamos um jogo a qual elas tinham, de realizar essa 
-                                 separação do lixo e ao final ganhavam uma lembrancinha.</p>
-                            <p >Durante sua realização foi um total supresa saber o quanto as 
-                                crianças tinham conhecimento sobre assunto e o quão bem direcionas estavam.</p>
+                        <p className="ttl_black_screen">Dinâmica do Lixo</p>
+                            <p >Foi um momento onde as crianças disseram a oportunidade conhecer um pouco mais sobre separação de lixo e o esquema de cores. Criamos um jogo a qual elas tinham, de realizar essa separação do lixo e ao final ganhavam uma lembrancinha.</p>
+                            <p >Durante sua realização foi um total supressa saber o quanto as crianças tinham conhecimento sobre assunto e o quão bem direcionas estavam</p>
                         </div>
                         <button className="red_in_screen" id="btnRedScreen" onClick={event => { NewScreenRed('redScreen3', "black_screen3")}}>
                             <div className="red_of_screen" id="redScreen3"></div>
@@ -249,8 +239,12 @@ export default  function () {
                     </div>
                     <div className="buttom_red_screen" id="black_screen4">
                         <div className="txt_screen_black">
-                        <p className="ttl_black_screen"></p>
-                            <p> </p>
+                        <p className="ttl_black_screen">Teatro - O que você faria se visse alguém jogando lixo no chão</p>
+                            <p>O teatro incentivar e orientar as crianças não 
+                                jogarem lixo no chão, o objetivo era que apartir da 
+                                pergunta o que você faria se  visse alguém jogando lixo 
+                                no chão e as crianças teria quem montar uma historia 
+                                apartir dali </p>
                             
                         </div>
                         <button className="red_in_screen" id="btnRedScreen" onClick={event => { NewScreenRed('redScreen4', "black_screen4")}}>
@@ -281,10 +275,7 @@ export default  function () {
                     <div className="buttom_red_screen" id="black_screen5">
                         <div className="txt_screen_black">
                         <p className="ttl_black_screen">Plantio</p>
-                            <p >Plantamos com as crianças algumas mudas, 
-                                a qual elas, mais tarde puderam levar para casa. Tentamos 
-                                propiciar um contato real com a natureza, sempre reforçando 
-                                o carinho e o cuidado que temos de ter com o Meio Ambiente</p>
+                            <p >Plantamos com as crianças algumas mudas, a qual elas, mais tarde puderam levar para casa. Tentamos propiciar um contato real com a natureza, sempre reforçando o carinho e o cuidado que temos de ter com o Meio Ambiente</p>
                         </div>
                         <button className="red_in_screen" id="btnRedScreen" onClick={event => { NewScreenRed('redScreen5', "black_screen5")}}>
                             <div className="red_of_screen" id="redScreen5"></div>
@@ -314,14 +305,8 @@ export default  function () {
                     <div className="buttom_red_screen" id="black_screen6">
                         <div className="txt_screen_black">
                         <p className="ttl_black_screen">Encerramento</p>
-                            <p >Ao final dos dias de realização da ação, 
-                                presentiamos as crianças com uma capa e mascara feitos 
-                                com materiais reciclados, e os nomeamos herois da reciclagem
-                            </p>
-                            <p >Realmente esperamos que esse projeto tenha mudado a visão dessas 
-                                crianças, assim como mudou a nossa. E humildemente agradecemos ao
-                                funcionarios da Escola Estadual Professor Alípio de Barros, que nos 
-                                permitiram realizar esta ação.</p>
+                            <p >Ao final dos dias de realização da ação, pressentíamos as crianças com uma capa e mascara feitos com materiais reciclados, e os nomeamos heróis da reciclagem</p>
+                            <p >Realmente esperamos que esse projeto tenha mudado a visão dessas crianças, assim como mudou a nossa. E humildemente agradecemos ao funcionários da Escola Estadual Professor Alípio de Barros, que nos permitiram realizar esta ação.</p>
                         </div>
                         <button className="red_in_screen" id="btnRedScreen" onClick={event => { NewScreenRed('redScreen6', "black_screen6")}}>
                             <div className="red_of_screen" id="redScreen6"></div>

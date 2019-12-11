@@ -130,7 +130,7 @@ export default  function () {
 
                 <div className="gallery_popup galllery_popup_act" id="screen1">
                 <div className="txt_gallery">
-                <p  >clique no meio para visulalizar as imagens e nas laterais para passar de imagem</p>
+                <p  >clique no meio para visulalizar as imagens e nas laterais para passar de imagem e no circulo para visualizar a descrição </p>
                 </div>
                     {/* screen content one */}
                     <div className= "screen">
@@ -177,8 +177,7 @@ export default  function () {
                     <div className="buttom_red_screen" id="black_screen2">
                         <div className="txt_screen_black">
                         <p className="ttl_black_screen">Beneficios</p>
-                            <p >É importante lembrar alguns dos beneficios que Empresas como a Loga e a EcoUrbis 
-                                que realizão o serviços de coleta no Estado de São Paulo como:
+                            <p >É importante lembrar alguns dos benefícios que Empresas como a Loga e a EcoUrbis que realizam os serviços de coleta no Estado de São Paulo como:
                             </p>
                             <p >I.Qualidade do ar e o controle de odores e efluentes líquidos.</p>
                             <p>II.Eliminação do risco de contaminação do solo e da água.</p>
@@ -249,8 +248,7 @@ export default  function () {
                             <p >O aterro da Bandeirantes (Tamanho: 1.400.000m²), o aterro da Vila Albertina
                                 (capacidade de 9,2 milhões/t de resíduos), de São João 
                                 (capacidade de 30.000.000 toneladas), o São Mateus e o de Santo Amaro</p>
-                            <p>Hoje utilizamos o Aterro de Caieiras que tem vida util até 2041 depois dai ainda 
-                                não se sabe, para onde vai o lixo.</p> 
+                            <p>Hoje utilizamos o Aterro de Caieiras que tem vida útil até 2041 depois daí ainda não se sabe, para onde vai o lixo.</p> 
                            
                         </div>
                         <button className="red_in_screen" id="btnRedScreen" onClick={event => { NewScreenRed('redScreen4', "black_screen4")}}>
@@ -277,12 +275,11 @@ export default  function () {
                 <div className="buttom_red_screen" id="black_screen5">
                     <div className="txt_screen_black">
                     <p className="ttl_black_screen">O que agregou</p>
-                            <p >Graças a Loga e sua represente podemos tirar inumeras duvidas sobre separação do lixo
-                                algumas curiosidades e conhecer mais sobre a Loga e o sistema de destinação dos residuos.
+                            <p > Graças a Loga e sua represente podemos tirar inúmeras dúvidas sobre separação do lixo algumas curiosidades e conhecer mais sobre a Loga e o sistema de destinação dos resíduos.
                                 <br/>
-                                Não sendo só isso nos trouxe inumeros dados sobre o a produção de lixo nacional, destinação e os
-                                futuros problemas ocasionados pela produção de residuos.<br/>
-                                E agradecer a Turma 81 por eles terem participado dessa experiência com a nossa turma
+                                Não sendo só isso nos trouxe inúmeros dados sobre o a produção de lixo nacional, destinação e os futuros problemas ocasionados pela produção de resíduos.<br/>
+                                E agradecer a Turma 81 por eles terem participado dessa experiência com a nossa turma.
+
                             </p>
                     </div>
                     <button className="red_in_screen" id="btnRedScreen" onClick={event => { NewScreenRed('redScreen5', "black_screen5")}}>
