@@ -83,8 +83,27 @@ export default function Home(){
 
                 <h2 className="home-menu-ttl"> Dia da Grande Ação</h2>
 
-                <p className="home-menu-txt">O nosso Projeto Integrador foi gerado pensando em algo que fosse interativo e pudesse mudar as coisas realmente. Apartir dai decidimos trabalhar com crianças pois temos a conciência que elas sã o o futuro e que realmente que mvai fazer qa diferença são elas.</p>
-                <p className="home-menu-txt">A grande ação foi realizada em uma escola Pirituba é não poderia ter resuldado melhor, indiferente as dificuldades</p>
+                <p className="home-menu-txt">O nosso Projeto Integrador foi 
+                gerado pensando em algo que fosse interativo e pudesse mudar as 
+                coisas realmente, o que foi um ponto crucial para decidirmos nosso 
+                público alvo. Pois temos a consciência que as crianças são o futuro
+                 e quem realmente vai fazer diferença.</p>
+
+                <p className="home-menu-txt">A grande ação realizado em uma escola 
+                de Pirituba, não poderia ter resultado melhor, indiferente as 
+                possíveis adversidades.</p>
+
+
+                <dvi className = "view_otherpg">
+                    <p className ="text-pre-btn">Clique abaixo  para visualiza mais sobre o conteudo</p>
+                    <br/>
+
+                    <Link to="/grandeDia">
+
+                        <button className="btn">Ver Mais</button>
+                    </Link>
+                </dvi>
+
             </div>
 
 
@@ -107,7 +126,56 @@ export default function Home(){
                 SENAC, que tinha também o tema gerador sustentabilidade, e junto com eles esclarecer
                 inúmeras dúvidas.</p>
 
+
+                <dvi className = "view_otherpg">
+                    <p className ="text-pre-btn">Clique abaixo  para visualiza mais sobre o conteudo</p>
+                    <br/>
+
+                    <Link to="/palestra_loga">
+
+                        <button className="btn">Ver Mais</button>
+                    </Link>
+                </dvi>
+                
+
             </div>
+
+
+            <button className="link  third-action" onClick = { event => {rep('fourth')}}>
+                <h2>Teatro</h2>
+            </button>
+
+            <div className="link-content" id= "fourth">
+            
+                <h2 className="home-menu-ttl">É o Depois do Reciclar Cores </h2>
+
+                <p className="home-menu-txt" >Representa o que tínhamos em mente quando escolhemos o 
+                nosso público alvo. Esperança que vai muito além do nosso projeto, que esta nas 
+                crianças a qual nós tentamos passar conhecimentos sobre sustentabilidade, mas com foco
+                 em reciclagem e mais podemos dizer que conseguimos, e acreditamos que essa jovens cidadãos 
+                 levem este conhecimento a frente.</p>
+
+                <p className="home-menu-txt">Também procuramos demostrar a energia e um pouco da 
+                experiência que foi trabalhar com esse publico que não dispensa interação e são super dinâmicos </p>
+
+            </div>
+
+
+            <button className="link  third-action" onClick = { event => {rep('fifth')}}>
+                <h2>Quiz</h2>
+            </button>
+
+            <div className="link-content" id= "fifth">
+            
+                <h2 className="home-menu-ttl">Quiz - Repasse de conhecimento</h2>
+
+                <p className="home-menu-txt" >O quiz tem como objetivo propiciar uma experiencia divertida e rica, tentando passar os conhecimentos atingidos tanto através de nossas pesquisas, mas também das experiências vividas durante o projeto, tais conhecimento que obtivemos tanto da equipe de limpeza do Senac, quanto da representante da Loga  e até mesmo das crianças</p>
+
+                <p className="home-menu-txt alert">Se liga pessoal para o melhor grupo tem um surpresa</p>
+
+            </div>
+            
+            
             
         </>
     )

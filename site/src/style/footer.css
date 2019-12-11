@@ -75,7 +75,10 @@
 }
 
 .footer-menu-bt a {
-  color: #0b87ec;
+  color: #f7f8f8;
+  font-weight: bolder;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
 
 .footer-item-menu {

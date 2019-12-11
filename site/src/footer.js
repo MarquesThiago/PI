@@ -39,16 +39,16 @@ export default function Footer (){
 
                 
                 <div className ="footer-item-menu">
-                    <p>Inicio</p>
+                    <p><a href="/"> Inicio </a></p>
                 </div> 
 
 
 
                 <div className="footer-item-menu">
               
-                  <p>Palestra Senac</p>
+                  <p><a href = "/palestra_senac/photos"> Palestra Senac </a></p>
 
-                    <a href="\" >Galeria</a> 
+                    <a href="/palestra_senac/receita" >Receita</a> 
                 </div>
               
 
@@ -56,9 +56,9 @@ export default function Footer (){
 
                 <div className="footer-item-menu">
                         
-                            <p>Ação Principal</p>
+                            <p><a href="/grandeDia">Ação Principal</a></p>
                        
-                               <p> galeira </p>
+                            
                           
                 </div>
 
@@ -66,9 +66,8 @@ export default function Footer (){
               
               <div className="footer-item-menu">
                
-                       <p> Palestra Loga </p>
+                       <p><a href="/palestra_loga">Palestra Loga </a></p>
                     
-                        <p>galeira </p>
                 
               </div>
 
